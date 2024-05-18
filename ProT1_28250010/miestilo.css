@@ -1,0 +1,112 @@
+body {
+  background-color: #eaf2e3;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(imagenes/fondoreloj.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* p {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+.vista{
+    background-color: rgb(255, 230, 0);
+    text-decoration: solid;
+} */
+
+header {
+  background-color: #af912e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-decoration: solid;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  text-shadow: 5px 10px 10px rgb(41, 44, 28);
+}
+section {
+  padding: 20px; /* espaciado para la sección de 20 pixeles */
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  text-shadow: 0px 2px 4px #faf8f8;
+}
+footer {
+  background-color: #c7bc55; /* Color de fondo del footer */
+  color: #fff;
+  padding: 20px 0;
+  text-decoration-line: none;
+  text-align: center;
+}
+.footer-content {
+  max-width: 800px; /* Ancho máximo del contenido del footer */
+  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  text-align: center;
+}
+
+nav {
+  background-color: #f5e72c;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #0a0a0a;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px #333;
+}
+nav ul li a:hover {
+  background-color: #f5d104;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.par {
+  text-transform: lowercase;
+  color: antiquewhite;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px #333;
+}
+
+iframe {
+  display: block  ; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  border: 3px solid #3a0c0c; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+  border-radius: 20px; /* Borde redondeado de 10px para suavizar el contorno */
+  width: 400px;
+  height: 400px;
+  ;
+  
+}
+form {
+  padding: 20px;
+  color: antiquewhite;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px #333;
+  text-align: center;
+}
+h3 {
+  padding: 20px;
+  text-align: center;
+  background-color: #af912e;
+}
